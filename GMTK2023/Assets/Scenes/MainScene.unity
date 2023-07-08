@@ -1152,6 +1152,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c95b6a2351a4c2a4396d038c1a10eb23, type: 2}
+    - target: {fileID: 5071954541378243815, guid: ccf6a6da2d97d8e41a929fab82eac630, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 207.3384
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071954541378243815, guid: ccf6a6da2d97d8e41a929fab82eac630, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071954541378243815, guid: ccf6a6da2d97d8e41a929fab82eac630, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5149943232897735020, guid: ccf6a6da2d97d8e41a929fab82eac630, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1663,7 +1675,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.025780367, y: 0.021620804, z: 0.020000027}
   m_Center: {x: 0.00325367, y: 4.6252755e-18, z: -7.3979963e-16}
@@ -2360,7 +2372,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.021947496, y: 0.02629123, z: 0.020000035}
   m_Center: {x: -0.0013372377, y: -0.0023352108, z: -0.0000000034797412}
@@ -3120,7 +3132,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.008086339, y: 0.020816837, z: 0.02000002}
   m_Center: {x: 1.4445088e-11, y: -0.00040198304, z: -0.000000059904146}
@@ -3330,7 +3342,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.008086338, y: 0.020816835, z: 0.020000027}
   m_Center: {x: -0.0000000037252903, y: -0.00040198112, z: 0.00000005900564}
