@@ -69,10 +69,11 @@ public class MailBox : MonoBehaviour,IInteraction
     }
 
 
+
     // Update is called once per frame
     void Update()
     {
-        if(reading == true && Input.GetKeyDown(KeyCode.E))
+        if(reading == true && Input.GetKeyDown(KeyCode.Escape))
         {
             reading = false;
             familyPicture.gameObject.SetActive(false);

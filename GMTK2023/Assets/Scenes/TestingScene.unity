@@ -529,6 +529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1106236581}
   - component: {fileID: 1106236580}
+  - component: {fileID: 1106236582}
   m_Layer: 0
   m_Name: ES
   m_TagString: Untagged
@@ -563,6 +564,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1106236582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106236579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1eebe5c5732bc549ab626a82a1246f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialougueUIReference: {fileID: 0}
+  dialogueDisplayTime: 0
+  interactionStatus: 1
+  getoutPaper: {fileID: 0}
+  inputfield: {fileID: 0}
+  text: 
+  target: jump
+  input: jansudphjaisdhiuawjumasdopasdapdamdjump
+  reading: 0
 --- !u!1 &1152106449
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,10 +704,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3538dd539294a9458c028fb622ff093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialougueUIReference: {fileID: 0}
-  dialogueDisplayTime: 3
-  interactionStatus: 1
-  text: testing
 --- !u!1 &1469373139 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}

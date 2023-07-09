@@ -182,6 +182,8 @@ public class FirstPersonController : MonoBehaviour
         }
 
         playerInventory = this.transform.GetComponent<Inventory>();
+
+        lightSourceFL = flashLight.gameObject.GetComponent<Light>();
     }
 
     void Start()
@@ -416,15 +418,19 @@ public class FirstPersonController : MonoBehaviour
 
             if (hasFL)
             {
+                Debug.Log("fl got");
                 if (Input.GetKeyDown(KeyCode.F))
                 {
                     if (isFLOn)
                     {
+                        Debug.Log("fl got");
                         lightSourceFL.intensity = 0;
                         isFLOn = !isFLOn;
                     }
                     else
                     {
+
+                        Debug.Log("fl on");
                         lightSourceFL.intensity = FLIntensity;
                         isFLOn = !isFLOn;
                     }
